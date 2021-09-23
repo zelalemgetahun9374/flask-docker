@@ -10,6 +10,6 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "name of your heroku app" #Must be unique in Heroku
-          heroku_email: "email of your heroku account"
+          heroku_app_name: "some-unique-name-1999" #Must be unique in Heroku
+          heroku_email: "azariagebremichael10@gmail.com"
           usedocker: true
